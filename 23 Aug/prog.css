@@ -1,0 +1,82 @@
+
+body{
+    background: #000;
+}   
+.skills{
+    color: whitesmoke;
+    margin-left: 80px;
+    margin-top: auto;
+    width: 550px;
+   
+}
+.skills li{
+    margin: 20px 0px;
+    list-style: none;
+}
+h5{
+    margin-top: -8px;
+    margin-left: 500px;
+    margin-bottom: -15px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px #2187b3;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.bar span{
+    float: left;
+    height: 10px;
+    background: #2187e7;
+}
+.html{
+    width: 90%;
+    animation: html 2s;
+}
+.css{
+    width:75%;
+    animation: css 2s;
+}
+.javascript{
+    width: 72%;
+    animation: javascript 2s;
+}
+.jquery{
+    width:68%;
+    animation: jquery 2s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 78%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 72%;
+    }
+}
+@keyframes jquery{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 68%;
+    }
+}
