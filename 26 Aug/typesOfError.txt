@@ -1,0 +1,25 @@
+There are three types of errors in JavaScript: (a) Syntax Errors, (b) Runtime Errors, and (c) Logical Errors. d)reference errors
+Syntax Errors:
+Syntax errors are also called parsing errors, occur at compile time in traditional programming languages and at interpret time in JavaScript.
+
+Eg: <script>
+        alert("my name is naveen
+    
+    </script>
+
+    here parenthasis missing that is a syntax error
+    ---------------------------------------------------------
+    Runtime Errors::
+Runtime errors, also called exceptions, occur during execution (after compilation/interpretation).
+
+For example, the following line causes a runtime error because here the syntax is correct, but at runtime, it is trying to call a method that does not exist.
+eg:<script type = "text/javascript">
+   <!--
+      window.printme();
+   //-->
+</script>
+------------------------------------------------------------------
+Logical Errors:
+Logic errors can be the most difficult type of errors to track down. These errors are not the result of a syntax or runtime error. Instead, they occur when you make a mistake in the logic that drives your script and you do not get the result you expected.
+
+You cannot catch those errors, because it depends on your business requirement what type of logic you want to put in your program
