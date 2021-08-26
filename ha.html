@@ -1,0 +1,32 @@
+<html>
+   <head>
+      
+      <script type = "text/javascript">
+         
+            function myFunc() {
+               var a = 100;
+               
+               try {
+                  alrt("Value of variable a is : " + a );
+               }
+               catch ( e ) {
+                  alert("Error: " + e.description );
+               }
+               finally {
+                  alert("Finally block will always execute!" );
+                  alert(a)
+               }
+            }
+         //-->
+      </script>
+      
+   </head>
+   <body>
+      <p>Click the following to see the result:</p>
+      
+      <form>
+         <input type = "button" value = "Click Me" onclick = "myFunc();" />
+      </form>
+      
+   </body>
+</html>
