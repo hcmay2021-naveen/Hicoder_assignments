@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doc</title>
+  </head>
+  <body>
+    <script>
+      let person = {
+        name: "naveen",
+        age: 21,
+        id: 521,
+        city: "vijayawada",
+      };
+      console.log("object.values");
+      console.log(typeof person);
+      console.log(Object.values(person));
+      console.log("--------------------------");
+      console.log("object.keys");
+      console.log(Object.keys(person));
+      console.log("---------------------------");
+      console.log("object.entries");
+      console.log(Object.entries(person));
+      console.log("------------------------------");
+      console.log("map()");
+      let arr = [1, 2, 3, 4, 5];
+      let res = arr.map((x) => x * 2);
+      console.log(res);
+      console.log("---------------------------------");
+      const items = [12, 24, 36];
+      const copy = [];
+      items.forEach(function (item) {
+        copy.push(item * 2);
+      });
+      console.log(copy);
+      console.log("-----------------------------");
+      let nums = [1, 2, 3, 4, 5];
+      for (let n of nums) {
+        n *= 2;
+        console.log(n);
+      }
+      console.log("-----------");
+      const array = [10, 20, 30];
+      let total = 0;
+
+      for (const item in array) {
+        total += items[item];
+      }
+      console.log(total);
+      console.log('------------------')
+    </script>
+  </body>
+</html>
