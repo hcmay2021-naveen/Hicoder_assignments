@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+</head>
+<body>
+    <script>
+        let element= document.createElement('div'); //creating div
+        document.body.appendChild(element) //appending the div to body
+        element.style.height='500px'
+        element.style.width='700px';
+        element.style.margin='100px';
+        function img(image='download.png'){
+            let imgElement=document.createElement('img')
+            element.appendChild(imgElement);
+            imgElement.src=image;   
+        }
+        img();
+    </script>
+</body>
+</html>
